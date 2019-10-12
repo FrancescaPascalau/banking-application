@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: francesca.pascalau.data.SystemIntegrationTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.426 s - in francesca.pascalau.data.SystemIntegrationTests

@@ -1,0 +1,9 @@
+francesca\pascalau\data\entity\Transfer.class
+francesca\pascalau\data\entity\Customer.class
+francesca\pascalau\data\api\CustomerRepository.class
+francesca\pascalau\data\entity\Bank.class
+francesca\pascalau\data\api\BankRepository.class
+francesca\pascalau\data\api\TransferRepository.class
+francesca\pascalau\data\entity\Account.class
+francesca\pascalau\data\entity\TransferType.class
+francesca\pascalau\data\api\AccountRepository.class
