@@ -53,9 +53,9 @@ public class TransferServiceImpl implements TransferService {
                 if (transfer.getValueToTransfer() < 1000) {
                     transfer.setSender(senderAccount);
                     transfer.setReceiver(receiverAccount);
-                    senderAccount.setValue(senderAccount.getValue() - transfer.getValueToTransfer() - TransferType.INTERBANK.getComission());
+                    senderAccount.setValue(senderAccount.getValue() - transfer.getValueToTransfer());
                     senderAccount.addTransferSent(transfer);
-                    receiverAccount.setValue(receiverAccount.getValue() + transfer.getValueToTransfer());
+                    receiverAccount.setValue(receiverAccount.getValue() + transfer.getValueToTransfer() - TransferType.INTERBANK.getComission());
                     receiverAccount.addTransferReceived(transfer);
                 } else {
                     throw new TransferDeniedException("The transfer amount exceeds the limit of 1000€ per transfer");
@@ -81,12 +81,11 @@ public class TransferServiceImpl implements TransferService {
     }
 
     private boolean interbankFailurePercentage() {
-        boolean transferFailed = false;
         Random transferPercentage = new Random();
         int failurePercentage = transferPercentage.nextInt(10) + 1;
         if (failurePercentage <= 3) {
-            transferFailed = true;
+            throw new TransferDeniedException("Inter-bank transfer failure!");
         }
-        return transferFailed;
+        return false;
     }
 }

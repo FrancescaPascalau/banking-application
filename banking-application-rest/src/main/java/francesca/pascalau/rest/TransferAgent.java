@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.*;
  *      {
  * 	        "sender": "Salary",
  * 	        "receiver": "Savings",
- * 	        "amount": "100"
+ * 	        "amount": "1000"
  *      }
  */
 

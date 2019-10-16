@@ -2,81 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38bdb34a-65d7-42c3-86fc-7a6854e37c7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/banking-application-business.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/entity/AccountBusiness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/entity/BankBusiness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/entity/CustomerBusiness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/entity/TransferBusiness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/entity/TransferDeniedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/service/api/TransferService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/service/impl/TransferServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/src/test/java/TransferServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/target/banking-application-business-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/target/classes/francesca/pascalau/business/entity/AccountBusiness.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/target/classes/francesca/pascalau/business/entity/BankBusiness.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/target/classes/francesca/pascalau/business/entity/CustomerBusiness.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/target/classes/francesca/pascalau/business/entity/TransferBusiness.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/target/classes/francesca/pascalau/business/entity/TransferDeniedException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/target/classes/francesca/pascalau/business/service/api/TransferService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/target/classes/francesca/pascalau/business/service/impl/TransferServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-business/target/test-classes/TransferServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/banking-application-data.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/api/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/api/BankRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/api/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/api/TransferRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/Transfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/TransferType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/target/banking-application-data-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/target/classes/francesca/pascalau/data/api/AccountRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/target/classes/francesca/pascalau/data/api/BankRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/target/classes/francesca/pascalau/data/api/CustomerRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/target/classes/francesca/pascalau/data/api/TransferRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/target/classes/francesca/pascalau/data/entity/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/target/classes/francesca/pascalau/data/entity/Bank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/target/classes/francesca/pascalau/data/entity/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/target/classes/francesca/pascalau/data/entity/Transfer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/target/classes/francesca/pascalau/data/entity/TransferType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-data/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/banking-application-rest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/src/main/java/francesca/pascalau/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/src/main/java/francesca/pascalau/rest/DataConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/src/main/java/francesca/pascalau/rest/TransferAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/src/test/java/francesca/pascalau/data/SystemIntegrationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/src/test/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/target/banking-application-rest-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/target/classes/francesca/pascalau/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/target/classes/francesca/pascalau/rest/DataConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/target/classes/francesca/pascalau/rest/TransferAgent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/target/surefire-reports/TEST-francesca.pascalau.data.SystemIntegrationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/target/surefire-reports/francesca.pascalau.data.SystemIntegrationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/target/test-classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application-rest/target/test-classes/francesca/pascalau/data/SystemIntegrationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-application.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-business/banking-application-business.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/entity/TransferDeniedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/entity/TransferDeniedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/service/impl/TransferServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/service/impl/TransferServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-business/target/banking-application-business-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/banking-application-business/target/banking-application-business-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-business/target/classes/francesca/pascalau/business/entity/TransferDeniedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/banking-application-business/target/classes/francesca/pascalau/business/entity/TransferDeniedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-business/target/classes/francesca/pascalau/business/service/impl/TransferServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/banking-application-business/target/classes/francesca/pascalau/business/service/impl/TransferServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-data/banking-application-data.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-data/target/banking-application-data-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/banking-application-data/target/banking-application-data-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-rest/banking-application-rest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banking-application-rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-rest/src/main/java/francesca/pascalau/rest/TransferAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/banking-application-rest/src/main/java/francesca/pascalau/rest/TransferAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-rest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/banking-application-rest/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-rest/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/banking-application-rest/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-rest/target/banking-application-rest-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-rest/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/banking-application-rest/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-rest/target/classes/francesca/pascalau/rest/TransferAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/banking-application-rest/target/classes/francesca/pascalau/rest/TransferAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-rest/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-rest/target/surefire-reports/TEST-francesca.pascalau.data.SystemIntegrationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banking-application-rest/target/surefire-reports/TEST-francesca.pascalau.data.SystemIntegrationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-application-rest/target/surefire-reports/francesca.pascalau.data.SystemIntegrationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/banking-application-rest/target/surefire-reports/francesca.pascalau.data.SystemIntegrationTests.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/banking-application-business/target/" />
     <ignored path="$PROJECT_DIR$/banking-application-data/target/" />
@@ -97,48 +42,55 @@
     <session id="536216308">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="4" />
+          <entry key="class" value="24" />
           <entry key="iml" value="1" />
-          <entry key="java" value="39" />
-          <entry key="properties" value="5" />
-          <entry key="xml" value="6" />
+          <entry key="java" value="59" />
+          <entry key="properties" value="11" />
+          <entry key="sql" value="2" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
+          <entry key="CLASS" value="24" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="39" />
-          <entry key="Properties" value="5" />
-          <entry key="XML" value="6" />
+          <entry key="JAVA" value="59" />
+          <entry key="Properties" value="11" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1169" />
-          <entry key="properties" value="4" />
-          <entry key="txt" value="413" />
-          <entry key="xml" value="70" />
+          <entry key="java" value="1237" />
+          <entry key="properties" value="145" />
+          <entry key="sql" value="61" />
+          <entry key="txt" value="430" />
+          <entry key="xml" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1169" />
-          <entry key="PLAIN_TEXT" value="413" />
-          <entry key="Properties" value="4" />
-          <entry key="XML" value="70" />
+          <entry key="JAVA" value="1237" />
+          <entry key="PLAIN_TEXT" value="430" />
+          <entry key="Properties" value="145" />
+          <entry key="SQL" value="61" />
+          <entry key="XML" value="83" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/banking-application-rest/src/main/java/francesca/pascalau/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -148,20 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/banking-application-rest/src/main/java/francesca/pascalau/rest/TransferAgent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/api/TransferRepository.java">
+        <entry file="file://$PROJECT_DIR$/banking-application-rest/src/main/resources/data.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -169,47 +112,64 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/service/impl/TransferServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-803">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="42">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/service/api/TransferService.java">
+        <entry file="file://$PROJECT_DIR$/banking-application-rest/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="102">
+              <caret line="6" column="16" lean-forward="true" selection-end-line="31" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/banking-application-rest/src/test/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="29" column="93" lean-forward="true" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="94" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/Transfer.java">
+        <entry file="file://$PROJECT_DIR$/banking-application-rest/src/main/java/francesca/pascalau/rest/TransferAgent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/TransferType.java">
+        <entry file="file://$PROJECT_DIR$/banking-application-rest/src/test/java/francesca/pascalau/data/SystemIntegrationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="1530">
+              <caret line="106" column="47" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>'</find>
+      <find>&quot;</find>
+      <find>-</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="FrancescaPascalau" />
         <option value="pascalaufrancescaa@gmail.com" />
       </list>
     </option>
@@ -221,10 +181,7 @@
       <list>
         <option value="$PROJECT_DIR$/banking-application-controller/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/banking-application-rest/pom.xml" />
         <option value="$PROJECT_DIR$/banking-application-business/src/test/java/TransferServiceTest.java" />
-        <option value="$PROJECT_DIR$/banking-application-rest/src/test/resources/application.properties" />
-        <option value="$PROJECT_DIR$/banking-application-rest/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/banking-application-rest/src/test/java/francesca/pascalau/ParentTest.java" />
         <option value="$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/Customer.java" />
         <option value="$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/Bank.java" />
@@ -237,8 +194,13 @@
         <option value="$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/TransferType.java" />
         <option value="$PROJECT_DIR$/banking-application-rest/src/test/java/francesca/pascalau/data/SystemIntegrationTests.java" />
         <option value="$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/api/TransferRepository.java" />
+        <option value="$PROJECT_DIR$/banking-application-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/banking-application-rest/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/entity/TransferDeniedException.java" />
         <option value="$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/service/impl/TransferServiceImpl.java" />
         <option value="$PROJECT_DIR$/banking-application-rest/src/main/java/francesca/pascalau/rest/TransferAgent.java" />
+        <option value="$PROJECT_DIR$/banking-application-rest/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/banking-application-rest/src/test/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -249,9 +211,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="950" />
+    <option name="y" value="-30" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -259,8 +222,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,6 +309,68 @@
             <path>
               <item name="banking-application" type="b2602c69:ProjectViewProjectNode" />
               <item name="banking-application" type="462c0819:PsiDirectoryNode" />
+              <item name="banking-application-data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banking-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="banking-application" type="462c0819:PsiDirectoryNode" />
+              <item name="banking-application-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banking-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="banking-application" type="462c0819:PsiDirectoryNode" />
+              <item name="banking-application-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banking-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="banking-application" type="462c0819:PsiDirectoryNode" />
+              <item name="banking-application-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banking-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="banking-application" type="462c0819:PsiDirectoryNode" />
+              <item name="banking-application-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banking-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="banking-application" type="462c0819:PsiDirectoryNode" />
+              <item name="banking-application-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banking-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="banking-application" type="462c0819:PsiDirectoryNode" />
+              <item name="banking-application-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banking-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="banking-application" type="462c0819:PsiDirectoryNode" />
+              <item name="banking-application-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banking-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="banking-application" type="462c0819:PsiDirectoryNode" />
               <item name="banking-application-rest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -390,22 +413,69 @@
               <item name="pascalau" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="banking-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="banking-application" type="462c0819:PsiDirectoryNode" />
+              <item name="banking-application-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banking-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="banking-application" type="462c0819:PsiDirectoryNode" />
+              <item name="banking-application-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banking-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="banking-application" type="462c0819:PsiDirectoryNode" />
+              <item name="banking-application-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banking-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="banking-application" type="462c0819:PsiDirectoryNode" />
+              <item name="banking-application-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banking-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="banking-application" type="462c0819:PsiDirectoryNode" />
+              <item name="banking-application-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Mai&#9;FILE&#9;file://D:/Projects/banking-application/banking-application-rest/src/main/java/francesca/pascalau/Main.java&#10;ART&#9;FILE&#9;file://D:/Projects/banking-application/banking-application-rest/src/test/java/francesca/pascalau/data/AccountRepositoryTest.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570914370748" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571237445061" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="D:/Programs/Git/bin/git.exe" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\banking-application\banking-application-rest\src\test\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -429,22 +499,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountRepositoryTest.whenFindByName_thenReturnAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="banking-application-rest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="francesca.pascalau.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="francesca.pascalau" />
-      <option name="MAIN_CLASS_NAME" value="francesca.pascalau.AccountRepositoryTest" />
-      <option name="METHOD_NAME" value="whenFindByName_thenReturnAccount" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -479,6 +533,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SystemIntegrationTests.whenFindByName_thenReturnCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banking-application-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="francesca.pascalau.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="francesca.pascalau.data" />
+      <option name="MAIN_CLASS_NAME" value="francesca.pascalau.data.SystemIntegrationTests" />
+      <option name="METHOD_NAME" value="whenFindByName_thenReturnCustomer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SystemIntegrationTests.whenFindByType_thenReturnAllTransfersByThatType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="banking-application-rest" />
       <extension name="coverage">
@@ -497,18 +567,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.AccountRepositoryTest.whenFindByName_thenReturnAccount" />
       <item itemvalue="JUnit.SystemIntegrationTests.whenFindByName_thenReturnBank" />
       <item itemvalue="JUnit.SystemIntegrationTests.whenFindByType_thenReturnAllTransfersByThatType" />
       <item itemvalue="JUnit.SystemIntegrationTests" />
+      <item itemvalue="JUnit.SystemIntegrationTests.whenFindByName_thenReturnCustomer" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SystemIntegrationTests.whenFindByName_thenReturnCustomer" />
         <item itemvalue="JUnit.SystemIntegrationTests" />
         <item itemvalue="JUnit.SystemIntegrationTests.whenFindByType_thenReturnAllTransfersByThatType" />
         <item itemvalue="JUnit.SystemIntegrationTests.whenFindByName_thenReturnBank" />
-        <item itemvalue="JUnit.AccountRepositoryTest.whenFindByName_thenReturnAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -523,18 +593,17 @@
       <option name="presentableId" value="Default" />
       <updated>1570887171537</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created a banking application on Spring Framework support that accepts two type of money transfer between accounts: intra-bank and inter-bank.&#10; It is organised in three modules: Data, that persist the data in the PostgreSQL database with the help of Hibernate, Business, that implements the logic of the application and Controller, which takes a request and maps it to the specific URI to return the expected response.&#10; It also contains integration test and unit tests to verify the functionality of the program.">
+      <created>1570914857540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570914857541</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SystemIntegrationTests_whenFindByType_thenReturnAllTransfersByThatType - 2019.10.12 at 22h 13m 46s.xml">
-      <configuration name="SystemIntegrationTests.whenFindByType_thenReturnAllTransfersByThatType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SystemIntegrationTests_whenFindByType_thenReturnAllTransfersByThatType - 2019.10.12 at 22h 17m 45s.xml">
-      <configuration name="SystemIntegrationTests.whenFindByType_thenReturnAllTransfersByThatType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SystemIntegrationTests_whenFindByType_thenReturnAllTransfersByThatType - 2019.10.12 at 22h 23m 12s.xml">
-      <configuration name="SystemIntegrationTests.whenFindByType_thenReturnAllTransfersByThatType" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SystemIntegrationTests_whenFindByType_thenReturnAllTransfersByThatType - 2019.10.12 at 22h 24m 48s.xml">
       <configuration name="SystemIntegrationTests.whenFindByType_thenReturnAllTransfersByThatType" configurationId="JUnit" />
     </history-entry>
@@ -556,25 +625,40 @@
     <history-entry file="SystemIntegrationTests - 2019.10.12 at 22h 34m 54s.xml">
       <configuration name="SystemIntegrationTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SystemIntegrationTests_whenFindByName_thenReturnCustomer - 2019.10.16 at 16h 43m 11s.xml">
+      <configuration name="SystemIntegrationTests.whenFindByName_thenReturnCustomer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SystemIntegrationTests_whenFindByName_thenReturnCustomer - 2019.10.16 at 16h 44m 04s.xml">
+      <configuration name="SystemIntegrationTests.whenFindByName_thenReturnCustomer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SystemIntegrationTests_whenFindByName_thenReturnCustomer - 2019.10.16 at 16h 48m 10s.xml">
+      <configuration name="SystemIntegrationTests.whenFindByName_thenReturnCustomer" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="DB Browser" />
+      <window_info id="Project Explorer" />
+      <window_info id="Job Explorer" />
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.4794326" />
+      <window_info anchor="bottom" id="Console" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.2496454" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32907802" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.4893617" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.6453901" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.55744684" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.6297872" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -598,6 +682,36 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>accountRepository.findAll()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TransferType.INTERBANK.getComission()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>transfer.getValueToTransfer()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>senderAccount.getValue()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>findByName(transferBusiness.getSender());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>accountRepository.findByName(transferBusiness.getSender());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>transferRepository.findAll()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -612,41 +726,10 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>TransferType.INTERBANK</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>customer</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>customerRepository.findAll()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/banking-application-controller/banking-application-controller.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/banking-application-rest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/banking-application-controller/banking-application-controller.iml" />
     <entry file="file://$PROJECT_DIR$/banking-application-business/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -664,63 +747,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="39" column="49" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="56" column="57" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/banking-application-rest/src/test/java/francesca/pascalau/ParentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/banking-application-rest/src/test/java/francesca/pascalau/AccountRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/api/AccountRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/banking-application-rest/src/test/java/francesca/pascalau/ParentTest.java" />
+    <entry file="file://$PROJECT_DIR$/banking-application-rest/src/test/java/francesca/pascalau/AccountRepositoryTest.java" />
     <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/api/BankRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -756,51 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/banking-application-rest/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/banking-application-rest/src/test/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/banking-application-rest/src/main/java/francesca/pascalau/rest/DataConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/TransferType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/Transfer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/banking-application-rest/src/test/java/francesca/pascalau/data/SystemIntegrationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="106" column="47" lean-forward="true" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/api/TransferRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -811,10 +798,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/service/impl/TransferServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/Transfer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-803">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="323">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/TransferType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/api/AccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banking-application-rest/src/main/java/francesca/pascalau/rest/DataConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="501" selection-start-line="501" selection-end-line="501" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.2.RELEASE/spring-tx-5.1.2.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.2.RELEASE/spring-aop-5.1.2.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="518" selection-start-line="518" selection-end-line="518" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="574" selection-start-line="574" selection-end-line="574" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="515" selection-start-line="515" selection-end-line="515" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.2.RELEASE/spring-web-5.1.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banking-application-rest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/entity/TransferDeniedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banking-application-data/src/main/java/francesca/pascalau/data/entity/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="56" column="57" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banking-application-rest/src/main/java/francesca/pascalau/rest/TransferAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banking-application-rest/src/test/java/francesca/pascalau/data/SystemIntegrationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="106" column="47" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -825,10 +945,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/banking-application-rest/src/main/java/francesca/pascalau/rest/TransferAgent.java">
+    <entry file="file://$PROJECT_DIR$/banking-application-rest/src/main/resources/data.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banking-application-business/src/main/java/francesca/pascalau/business/service/impl/TransferServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banking-application-rest/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="true" selection-end-line="31" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banking-application-rest/src/test/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="29" column="93" lean-forward="true" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="94" />
         </state>
       </provider>
     </entry>
